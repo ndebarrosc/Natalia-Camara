@@ -1,0 +1,151 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* En-tête */
+header {
+    background-color: #2980b9;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495e;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2980b9;
+    border-radius: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 40px 0;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+/* Bouton */
+.button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1c6182;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 16px;
+}
+/* Style pour les icônes */
+section#contact i {
+    color: #2980b9; /* Couleur de l'icône */
+    font-size: 24px; /* Taille de l'icône */
+    vertical-align: middle; /* Aligne l'icône avec le texte */
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+}
+
+/* Style des liens (email et téléphone) */
+section#contact a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les paragraphes */
+section#contact p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    #cv .container {
+        width: 100%; /* Sur les petits écrans, chaque section prendra 100% de la largeur */
+        margin-right: 0;
+        margin-bottom: 20px; /* Espace entre les sections */
+    }
+}
