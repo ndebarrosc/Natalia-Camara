@@ -141,7 +141,7 @@ section#contact a:hover {
 /* Style pour les paragraphes */
 section#contact p {
     font-size: 18px;
-    margin-bottom: 15px;
+    magrin: 0;
 }
 
 @media (max-width: 768px) {
