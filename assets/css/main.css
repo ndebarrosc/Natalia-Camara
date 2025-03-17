@@ -286,7 +286,7 @@ h6 {
 
 .navmenu a .toggle-dropdown,
 .navmenu a:focus .toggle-dropdown {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 0;
   margin-left: auto;
   width: 30px;
